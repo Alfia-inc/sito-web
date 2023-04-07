@@ -1,0 +1,221 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+
+main, footer {
+max-width: 1385px;
+margin: auto;
+
+}
+
+header {
+    background-color: #ccc;
+  }
+
+    header nav ul {
+        list-style: none;
+        margin: 0px;
+        padding: 30px;
+        font-size: 16px;
+        display: flex;
+        justify-content:right;
+        gap: 10px;
+    }
+
+    main {
+        font-weight: normal;
+        text-align: center;
+        }
+        section h1 {
+font-size: 48px;
+color: #fff;
+
+ }
+
+main section.copertina  {
+    background-color: #373737;
+    margin: 0p;
+    padding: 40px ;
+    text-align:left;
+}
+    main section.copertina{
+        color: #fff;
+   font-size: 16px;
+ }
+ 
+ main section.copertina img{
+    height: 550px;
+    width: 650px;
+    object-fit: cover;
+    gap: 50px;
+
+ }
+ .rett{
+    position: absolute;
+    top: 2794px;
+    right: -889px;
+ } .ret{
+    position: absolute;
+    top: 2794px;
+  left: -498px;
+ }
+ 
+ .line{
+    position: absolute;
+  left: -377px;
+  top: -8px;
+ }
+ .linea{
+    position: absolute;
+ right: -350px;
+ top: -8px;
+ }
+ .t{
+    position: relative;
+   left: 130px;
+ }
+ .i{
+    position: relative;
+   left: 130px;
+ }
+
+
+ .par{
+    position: absolute;
+    top: 500px;
+right: 200px;
+width: 300px;
+height: 221px;
+     
+ }
+
+ .tit {
+position: absolute;
+top: 465px;
+right: 220px;
+font: size 24px; ;
+
+ }
+
+ .tito {
+    position: absolute;  
+top: 989px;
+ right: 599px;
+font-size: 24px;
+ }
+ .titol {
+    position: absolute;  
+    top: 1620px;
+    right: -180px;
+    font-size:  24px;
+    color: #fff;
+ }
+
+.titolo{
+    position: absolute;
+bottom: -1665px;
+right:599px;
+font-size:  24px;
+}
+.im{
+    position: absolute;  
+    bottom: -1645px;
+    right: 865px;
+ }
+.ola{
+    position: relative;
+    bottom: -80px;
+
+}
+.ind{
+    position: relative;
+    bottom: -80px;
+
+}
+.gre{
+    position: relative;
+    bottom: -80px;
+
+}
+main section.copertina .line  {
+    height: 965px;
+    width: 772px;
+    object-fit: cover;
+}  
+    main section.copertina .linea  {
+        height: 965px;
+        width: 762px;
+        object-fit: cover;
+        
+    }
+main section.card{
+    background-color: #fff ;
+     padding: 200px; 
+     display: grid ; 
+     grid-template-columns:  1fr 1fr 1fr;
+     gap: 120px;
+ }
+main section.card .titol{
+    width: 1800px;
+    background-color: #373737;
+    padding: 8px;
+ 
+}
+ main section.card img { 
+height: 200px;
+width: 300px;
+object-fit: cover;
+
+ }
+ main section.card div {
+    background-color: #ccc;
+margin-bottom: 200px;
+ }
+
+ main section.card  p{
+    text-align: left;
+  margin: 0px;
+  padding: 10px;
+   }
+ main section.card .im{
+    height: 32px;
+width: 36px;
+object-fit: cover;
+ } 
+ .cop{
+    position: relative;
+height: 40px;
+
+}
+ footer h3{
+font-size: 16px;
+text-align: center;
+width: 160px;
+height: 25px;
+
+ }
+ .conc{
+    position: absolute;
+    top: 3000px;
+    right: 300px;;
+ }
+ .cop{
+    position: absolute;
+    top: 3020px;
+    left: 480px;
+ }
+span{
+   font-weight: bold ;
+}
+ span.it {
+    font-style: italic ;
+    font-weight: normal;
+ }
+
+ 
+

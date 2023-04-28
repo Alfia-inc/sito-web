@@ -23,7 +23,7 @@ header {
         padding: 30px;
         font-size: 16px;
         display: flex;
-        justify-content:right;
+        justify-content:flex-end;
         gap: 10px;
     }
 
@@ -31,11 +31,11 @@ header {
         font-weight: normal;
         text-align: center;
         }
+        
         section h1 {
 font-size: 48px;
 color: #fff;
-
- }
+}
 
 main section.copertina  {
     background-color: #373737;
@@ -58,7 +58,7 @@ main section.copertina  {
  .rett{
     position: absolute;
     top: 2794px;
-    right: -889px;
+    right: -900px;
  } .ret{
     position: absolute;
     top: 2794px;
@@ -67,12 +67,12 @@ main section.copertina  {
  
  .line{
     position: absolute;
-  left: -377px;
+  left: -348px;
   top: -8px;
  }
  .linea{
     position: absolute;
- right: -350px;
+ right: -310px;
  top: -8px;
  }
  .t{
@@ -207,7 +207,7 @@ height: 25px;
  .cop{
     position: absolute;
     top: 3020px;
-    left: 480px;
+    left: 540px;
  }
 span{
    font-weight: bold ;

@@ -7,8 +7,8 @@ img {
     max-width: 100%;
 }
 
-main, footer {
-max-width: 1385px;
+main, header footer {
+max-width: 100%;
 margin: auto;
 
 }
@@ -35,11 +35,15 @@ header {
         section h1 {
 font-size: 48px;
 color: #fff;
+padding: 40px;
+gap: 0px;
+margin: 0%;
+
 }
 
 main section.copertina  {
     background-color: #373737;
-    margin: 0p;
+    margin: 0px;
     padding: 40px ;
     text-align:left;
 }
@@ -49,84 +53,72 @@ main section.copertina  {
  }
  
  main section.copertina img{
-    height: 550px;
-    width: 650px;
+    width: 80%;
     object-fit: cover;
-    gap: 50px;
+    gap: 10px;
+    margin: 0%;
+    padding-bottom: 30px;
 
  }
- .rett{
-    position: absolute;
-    top: 2794px;
-    right: -900px;
- } .ret{
-    position: absolute;
-    top: 2794px;
-  left: -498px;
- }
- 
- .line{
-    position: absolute;
-  left: -348px;
-  top: -8px;
- }
- .linea{
-    position: absolute;
- right: -310px;
- top: -8px;
- }
- .t{
-    position: relative;
-   left: 130px;
- }
- .i{
-    position: relative;
-   left: 130px;
+
+ .conc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+margin: auto;
  }
 
-
- .par{
-    position: absolute;
-    top: 500px;
-right: 200px;
-width: 300px;
-height: 221px;
-     
- }
-
- .tit {
+.co   {
 position: absolute;
-top: 465px;
-right: 220px;
-font: size 24px; ;
+left: 31%;
+text-align: left;
+font-size: 16px;
 
- }
-
- .tito {
-    position: absolute;  
-top: 989px;
- right: 599px;
-font-size: 24px;
- }
- .titol {
-    position: absolute;  
-    top: 1620px;
-    right: -180px;
-    font-size:  24px;
-    color: #fff;
- }
-
-.titolo{
-    position: absolute;
-bottom: -1665px;
-right:599px;
-font-size:  24px;
 }
-.im{
-    position: absolute;  
-    bottom: -1645px;
-    right: 865px;
- }
+
+ 
+ main section.card img { 
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+   height: 300px;
+     }
+
+     main section.card{
+        margin: auto;
+        background-color: #fff ;
+         padding: 200px; 
+         display: grid ; 
+         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+     }
+
+ main  section.titol h2{
+        margin: auto;
+        background-color: #373737;
+        padding: 10px;
+        color: #fff;
+        font-size: 46px;
+    }
+
+   h2{
+        margin: auto;
+    font-size: 48px;
+
+        padding: 20px;
+    }
+    
+ main section.card  p{
+    text-align: left;
+  margin: 0px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: #ccc;
+   }
+   main section.im img{
+    height: 32px;
+    width: 36px;
+    object-fit: cover;
+}
 .ola{
     position: relative;
     bottom: -80px;
@@ -140,82 +132,237 @@ font-size:  24px;
 .gre{
     position: relative;
     bottom: -80px;
-
 }
-main section.copertina .line  {
+ .tit{
+    font-size: 46px;
+padding-top: 120px;
+margin: 0px;
+gap: 0px;
+ }
+
+  div.tito  {
+    font-size: 46px;
+
+
+    display: flex;
+    justify-content:center;
+    
+   }
+  div.copertina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    display: flex;
+    justify-content: space-between;
+   padding: 40px;
+
+   }
+   .line{
+    position: absolute;
+  left: -348px;
+  left: -380px;
+  top: -8px;
+ }
+ .linea{
+    position: absolute;
+ right: -310%;
+ right: -353%;
+ top: -8px;
+ }
+
+   section.copertina p{
+font-size: 32px;
+display: flex;
+justify-content: flex-end;
+
+   }
+   div.copertina ul li{
+    list-style: none;
+   }
+   
+  main section.copertina{
+    border-left: #fff;
+    border-right: #ccc;
+    border-width: 50px;
+   }
+
+   
+ 
+.im img{
+   padding-right: 40px;
+ }
+ .tit h2{
+    margin:0;
+ font-size: 32px;
+ width: 400px;
+padding-left:10px;
+padding-top:50px;
+ }
+li.par p {
+font-size: 32px;
+padding-top: 10px;
+padding-left:10px;
+width: 350px;
+  line-height: 130%;
+height: 200px;
+text-align: left;
+
+ }
+ 
+ main section.copertina .line  {
     height: 965px;
     width: 772px;
     object-fit: cover;
 }  
     main section.copertina .linea  {
         height: 965px;
-        width: 762px;
-        object-fit: cover;
-        
+        width: 762px;   
     }
-main section.card{
-    background-color: #fff ;
-     padding: 200px; 
-     display: grid ; 
-     grid-template-columns:  1fr 1fr 1fr;
-     gap: 120px;
- }
-main section.card .titol{
-    width: 1800px;
-    background-color: #373737;
-    padding: 8px;
+
+    main section.copertina .linea img{
+        max-width: 600px;
+        height: 1000px;
+    }
+    main section.copertina{
+    border-bottom: #ccc;
+    border-top:#373737;
  
-}
- main section.card img { 
-height: 200px;
-width: 300px;
-object-fit: cover;
+    }
+ footer{
+    border-left-color:  #373737;
+    border-right-color: #373737;
+    border-style: solid;
+    border-width: 70px;
+    border-top: #ccc;
+    border-bottom: #ccc;
 
+    
  }
- main section.card div {
-    background-color: #ccc;
-margin-bottom: 200px;
- }
+    span{
+        font-weight: bold ;
+     }
+      span.it {
+         font-style: italic ;
+         font-weight: normal;
+      }
 
- main section.card  p{
-    text-align: left;
-  margin: 0px;
-  padding: 10px;
-   }
- main section.card .im{
-    height: 32px;
-width: 36px;
-object-fit: cover;
- } 
- .cop{
-    position: relative;
-height: 40px;
+           
 
-}
- footer h3{
-font-size: 16px;
-text-align: center;
-width: 160px;
-height: 25px;
-
- }
- .conc{
-    position: absolute;
-    top: 3000px;
-    right: 300px;;
- }
- .cop{
-    position: absolute;
-    top: 3020px;
-    left: 540px;
- }
-span{
-   font-weight: bold ;
-}
- span.it {
-    font-style: italic ;
-    font-weight: normal;
- }
-
- 
-
+       @media (max-width:800px){
+       
+           section.card img{
+            margin: auto;
+               max-width: 100%;
+     
+             
+           }
+           .co   {
+            position: absolute;
+            left: 21%;
+            text-align: left;
+            font-size: 12px;
+            
+            }
+     .ola {
+        margin: auto;
+            position: relative;
+         padding-bottom: 120px;
+           }
+           .ind{
+            position: relative;
+         padding-bottom: 120px;
+           }
+           .gre {
+            position: relative;
+         padding-bottom: 120px;
+           }
+          section.card p{
+            font-size: 16px;
+           }
+           selection.copertina{
+            max-width: 100%;
+           }
+           section.copertina h1 {
+               font-size: 32px;
+           }
+           .tit {
+            margin:0;
+         font-size: 32px;
+         width: 400px;
+        padding-left:10px;
+        padding-top:50px;
+         }  
+         main  section.titol h2{
+            margin: auto;
+            background-color: #373737;
+            padding: 10px;
+            color: #fff;
+            font-size: 32px;
+        }
+      main h2{
+        font-size: 32px;
+      }
+           .tit h2 {
+            font-size: 24px;
+           }
+           li.par p {
+            font-size: 16px;
+            width: 150px;
+              line-height: 130%;
+         
+            text-align: left;
+            
+             }
+       }
+       @media (max-width:500px){
+      
+          main section.card{
+            width: 100% ;
+           }
+          section.card img{
+            margin: auto;
+               max-width: 100%;
+           }
+           .co   {
+            position: absolute;
+            left: 21%;
+            text-align: left;
+            font-size: 12px;
+         }
+         section.card p{
+            font-size: 8px;
+           }
+           selection.copertina{
+            max-width: 80%;
+           }
+           section.copertina h1 {
+               font-size: 24px;
+           }
+           .tit {
+            margin:0;
+         font-size: 32px;
+         width: 400px;
+        padding-left:10px;
+        padding-top:50px;
+         }  
+         main  section.titol h2{
+            margin: auto;
+            background-color: #373737;
+            padding: 10px;
+            color: #fff;
+            font-size: 24px;
+        }
+      main h2{
+        font-size: 24px;
+      }
+           .tit h2 {
+            font-size: 16px;
+           }
+           li.par p {
+            font-size: 16px;
+            width: 100px;
+              line-height: 130%;
+         
+            text-align: left;
+            
+             }
+       }
